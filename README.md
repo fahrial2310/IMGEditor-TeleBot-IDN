@@ -1,6 +1,6 @@
 <h1 align="centre">IMGEditor-TeleBot-ENG</h1>
 
-### Bot that can edit you image on telegram
+### Bot yang dapat edit gambar yang andwaw inginkan di telegram
 ### Available on telegram as [@Alvin_junior](https://t.me/alvinmusicenrobot)
 
 <p align="center">
@@ -9,7 +9,7 @@
 
 ### Deploy to heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fahrial2310/IMGEditor-TeleBot-ENG)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fahrial2310/IMGEditor-TeleBot-IDN)
 
 ## Group Support
 <a href="https://t.me/Alvin_image_editor_group"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
