@@ -1,3 +1,4 @@
+from config import config
 from Modules.edit_1 import (  # pylint:disable=import-error
     bright,
     mix,
@@ -110,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Updates", url="t.me/Alvin_image_editor"
+                        "Updates", url="t.me/{UPDATES_CH}"
                     )
                 ],
             ]
@@ -130,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Updates", url="t.me/Alvin-image-editor"
+                        "Updates", url="t.me/{UPDATES_CH}"
                     )
                 ],
             ]
@@ -147,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Updates", url="t.me/Alvin-image-editor"
+                        "Updates", url="t.me/{UPDATES_CH}"
                     )
                 ],
             ]
