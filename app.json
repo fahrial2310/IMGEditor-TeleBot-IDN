@@ -60,13 +60,13 @@
         },
         "SUPPORT_NAME": {
             "description": "nama support grup mu",
-            "value": "Alvin_image_editor_group",
+            "value": "",
             "required": true     
        
         },
         "UPDATES_NAME": {
             "description": "nama Updates channel mu",
-            "value": "Alvin_image_editor",
+            "value": "",
             "required": true
         }
     },
