@@ -36,11 +36,22 @@
             "description": "username tanpa @",
             "value": "Alvin_junior",
             "required": true
-               },
+        },
         "OWNER_ID": {
             "description": "id mu",
             "value": "478939112",
             "required": true     
+        },
+        "SUPPORT_GRP": {
+            "description": "your username group without @",
+            "value": "Alvin_image_editor_group",
+            "required": true     
+       
+        },
+        "UPDATES_CH": {
+            "description": "your username group without @",
+            "value": "Alvin_image_editor",
+            "required": true
         }
     },
     "addons": [],
