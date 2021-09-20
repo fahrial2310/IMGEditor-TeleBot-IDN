@@ -14,6 +14,16 @@
             "value": "",
             "required": true
         },
+        "BOT_USERNAME": {
+            "description": "username botmu tanpa @",
+            "value": "@AlvinFSubRobot",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "nama bot mu",
+            "value": "Alvin Fsub Bot",
+            "required": true
+        },
         "API_HASH": {
             "description": "API Hash and dari my.telegram.org",
             "value": "",
@@ -37,11 +47,6 @@
             "value": "Alvin_junior",
             "required": true
         },
-        "OWNER_ID": {
-            "description": "id mu",
-            "value": "478939112",
-            "required": true     
-        },
         "SUPPORT_GRP": {
             "description": "username groupmu tanpa @",
             "value": "Alvin_image_editor_group",
@@ -50,6 +55,18 @@
         },
         "UPDATES_CH": {
             "description": "username channelmu tanpa @",
+            "value": "Alvin_image_editor",
+            "required": true
+             "required": true
+        },
+        "SUPPORT_NAME": {
+            "description": "nama support grupmu",
+            "value": "Alvin_image_editor_group",
+            "required": true     
+       
+        },
+        "UPDATES_NAME": {
+            "description": "nama channel updates mu",
             "value": "Alvin_image_editor",
             "required": true
         }
