@@ -42,8 +42,8 @@ async def photo(client: Client, message: Message):
                         InlineKeyboardButton(text="❌CLOSE❌", callback_data="close_e"),
                     ],
                     [
-                        InlineKeyboardbutton(text="Support", url="{SUPPORT_GRP}"),
-                        InlineKeyboardButton(text="Updates", url="{UPDATES_CH}"),
+                        InlineKeyboardbutton(text="Support", url="https://t.me/{SUPPORT_GRP}"),
+                        InlineKeyboardButton(text="Updates", url="https://t.me/{UPDATES_CH}"),
                     ],
                 ]
             ),
@@ -55,6 +55,6 @@ async def photo(client: Client, message: Message):
             return
         else:
             try:
-                await message.reply_text("Something Went Wrong!", quote=True)
+                await message.reply_text("Ada yang salah!", quote=True)
             except Exception:
                 return
