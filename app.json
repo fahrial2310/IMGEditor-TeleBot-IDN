@@ -1,13 +1,13 @@
 {
     "name": "Image-Editor-Bot",
-    "description": "A Bot that can Edit Images in various modes",
+    "description": "bot yang dapat edit gambarmu di telegram",
     "logo": "https://telegra.ph/file/d19b68d228e2dc46eb8f5.jpg",
     "keywords": [
         "Image",
         "Editor",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/fahrial2310/IMGEditor-TeleBot-ENG",
+    "repository": "https://github.com/fahrial2310/IMGEditor-TeleBot-IDN",
     "env": {
         "BOT_TOKEN": {
             "description": "Telegram Bot Token mu dari @BotFather",
