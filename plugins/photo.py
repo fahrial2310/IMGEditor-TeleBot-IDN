@@ -1,5 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
+from config import config
 
 
 @Client.on_message(filters.photo & filters.private)
@@ -41,11 +42,8 @@ async def photo(client: Client, message: Message):
                         InlineKeyboardButton(text="❌CLOSE❌", callback_data="close_e"),
                     ],
                     [
-                        InlineKeyboardbutton(text="Support", url="Alvin_image_editor_group"),
-                        InlineKeyboardButton(text="Updates", url="Alvin_image_editor"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="OFF TOPIC", url="Alvin_off_topic"),
+                        InlineKeyboardbutton(text="Support", url="{SUPPORT_GRP}"),
+                        InlineKeyboardButton(text="Updates", url="{UPDATES_CH}"),
                     ],
                 ]
             ),
