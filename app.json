@@ -1,40 +1,40 @@
 {
     "name": "Image-Editor-Bot",
-    "description": "bot yang dapat edit gambarmu di telegram",
+    "description": "A Bot that can Edit Images in various modes",
     "logo": "https://telegra.ph/file/d19b68d228e2dc46eb8f5.jpg",
     "keywords": [
         "Image",
         "Editor",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/fahrial2310/IMGEditor-TeleBot-IDN",
+    "repository": "https://github.com/fahrial2310/IMGEditor-TeleBot-ENG",
     "env": {
         "BOT_TOKEN": {
-            "description": "Telegram Bot Token dari @BotFather",
+            "description": "Telegram Bot Token mu dari @BotFather",
             "value": "",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "username botmu tanpa @",
-            "value": "@AlvinFSubRobot",
+            "description": "bot usernamemu",
+            "value": "AlvinFSubRobot",
             "required": true
         },
         "BOT_NAME": {
             "description": "nama bot mu",
-            "value": "Alvin Fsub Bot",
+            "value": "Alvin FSub Bot",
             "required": true
         },
         "API_HASH": {
-            "description": "API Hash and dari my.telegram.org",
+            "description": "Your API Hash from my.telegram.org",
             "value": "",
             "required": true
         },
         "APP_ID": {
-            "description": "API ID and dari my.telegram.org",
+            "description": "Your APP ID from my.telegram.org",
             "value": ""
         },
         "RemoveBG_API": {
-            "description": "dapatkan api ini di https://www.remove.bg/b/background-removal-api",
+            "description": "Get this api from https://www.remove.bg/b/background-removal-api",
             "value": "",
             "required": false
         },
@@ -43,30 +43,29 @@
             "value": "ANYTHING"
         },
         "OWNER_USERNAME": {
-            "description": "username tanpa @",
+            "description": "username mu tanpa @",
             "value": "Alvin_junior",
             "required": true
         },
         "SUPPORT_GRP": {
-            "description": "username groupmu tanpa @",
+            "description": "username group supportmu tanpa @",
             "value": "Alvin_image_editor_group",
             "required": true     
        
         },
         "UPDATES_CH": {
-            "description": "username channelmu tanpa @",
+            "description": "username channel updates mu tanpa @",
             "value": "Alvin_image_editor",
             "required": true
-             "required": true
         },
         "SUPPORT_NAME": {
-            "description": "nama support grupmu",
+            "description": "nama support grup mu",
             "value": "Alvin_image_editor_group",
             "required": true     
        
         },
         "UPDATES_NAME": {
-            "description": "nama channel updates mu",
+            "description": "nama Updates channel mu",
             "value": "Alvin_image_editor",
             "required": true
         }
