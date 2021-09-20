@@ -20,4 +20,6 @@ klik help untuk bantuan....</b>"""
 ☠️ <b>Support Group :</b> <a href='t.me/{SUPPORT_GRP}'>{SUPPORT_NAME}</a>
 
 ☠️ <b>Updates Channel :</b> <a href='t.me/{UPDATES_CH}r'>{UPDATES_NAME}</a>
+
+☠️ <b>Source Code :</b> <a href='https://{SOURCE_CODE}r'>Source Code</a>
 """
