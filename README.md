@@ -1,7 +1,7 @@
 <h1 align="centre">IMGEditor-TeleBot-ENG</h1>
 
-### Bot yang dapat edit gambar yang andwaw inginkan di telegram
-### Available on telegram as [@Alvin_junior](https://t.me/alvinmusicenrobot)
+### Bot yang dapat edit gambar yang anda inginkan di telegram
+### Available on telegram as [@Alvin_junior](https://t.me/Alvin_junior)
 
 <p align="center">
   <img src="https://telegra.ph/file/bafb2f48ede7eb08fd329.jpg">
