@@ -43,13 +43,13 @@
             "required": true     
         },
         "SUPPORT_GRP": {
-            "description": "your username group without @",
+            "description": "username groupmu tanpa @",
             "value": "Alvin_image_editor_group",
             "required": true     
        
         },
         "UPDATES_CH": {
-            "description": "your username group without @",
+            "description": "username channelmu tanpa @",
             "value": "Alvin_image_editor",
             "required": true
         }
