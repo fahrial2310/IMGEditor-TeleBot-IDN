@@ -42,8 +42,8 @@ async def photo(client: Client, message: Message):
                         InlineKeyboardButton(text="❌CLOSE❌", callback_data="close_e"),
                     ],
                     [
-                        InlineKeyboardbutton(text="Support", url="https://t.me/{SUPPORT_GRP}"),
-                        InlineKeyboardButton(text="Updates", url="https://t.me/{UPDATES_CH}"),
+                        InlineKeyboardbutton(text="☠️Support☠️", url="https://t.me/{SUPPORT_GRP}"),
+                        InlineKeyboardButton(text="☠️Updates☠️", url="https://t.me/{UPDATES_CH}"),
                     ],
                 ]
             ),
