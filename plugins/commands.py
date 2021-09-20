@@ -1,6 +1,7 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
+from config import config
 
 
 @Client.on_message(filters.command(["start"]) & filters.private)
@@ -18,7 +19,7 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton(
                             "Support", 
-                            url="t.me/Alvin_image_editor_group",
+                            url="t.me/{SUPPORT_GRP}",
                         )
                     ],
                 ]
@@ -44,7 +45,7 @@ async def help(client, message):
                     [
                         InlineKeyboardButton(
                             "Updates",
-                            url="t.me/Alvin_image_editor",
+                            url="t.me/{UPDATES_CH}",
                         )
                     ],
                 ]
@@ -64,13 +65,13 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ACK", callback_data="help_data"),
+                        InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("HOME", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
                             "Updates",
-                            url="t.me/Alvin_image_editor",
+                            url="t.me/{UPDATES_CH}",
                         )
                     ],
                 ]
