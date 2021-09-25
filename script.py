@@ -3,7 +3,7 @@ from config import config
 
     START_MSG = """ <b>Halo {}
 
-saya adalah bot editor yang dapat edit gambar yanganda inginkan
+saya adalah bot editor yang dapat edit gambar yang anda inginkan
 klik help untuk bantuan....</b>"""
     HELP_MSG = """ikuti step ini untuk bantuan..
 
@@ -15,7 +15,7 @@ klik help untuk bantuan....</b>"""
 
 ☠️ @Alvin_junior"""
     ABOUT_MSG = """☠️ <b>nama saya adalah:</b> :</b> <a href='t.me/{BOT_USERNAME}'>{BOT_NAME} ☠️</a>
-☠️ <b>Creator :</b> <a href='t.me/Alvin_junior'>Muhammad Fahri</a>
+☠️ <b>Creator :</b> <a href='t.me/{OWNER_USERNAME}'>{OWNER_NAME}</a>
 
 ☠️ <b>Support Group :</b> <a href='t.me/{SUPPORT_GRP}'>{SUPPORT_NAME}</a>
 
