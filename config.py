@@ -20,5 +20,9 @@ class Config(object):
     
     UPDATES_NAME = os.environ.get("UPDATES_NAME", "")
     
+    OWNER_USERNAME = os.environ.get("OWNER_USERNAME, ")
+    
+    OWNER_NAME = os.environ.get("OWNER_NAME, ")
+    
     # Get this api from https://www.remove.bg/b/background-removal-api
     RemoveBG_API = os.environ.get("RemoveBG_API", "")
