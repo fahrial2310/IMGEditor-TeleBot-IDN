@@ -14,12 +14,12 @@ klik help untuk bantuan....</b>"""
 <code>3️> Gambar Hasil Editan Anda Akan Diunggah </code>
 
 ☠️ @Alvin_junior"""
-    ABOUT_MSG = """☠️ <b>nama saya adalah:</b> :</b> <a href=f't.me/{BOT_USERNAME}'>{BOT_NAME} ☠️</a>
-☠️ <b>Creator :</b> <a href=f't.me/{OWNER_USERNAME}'>{OWNER_NAME}</a>
+    ABOUT_MSG = f"""☠️ <b>nama saya adalah:</b> :</b> <a href='t.me/{BOT_USERNAME}'>{BOT_NAME} ☠️</a>
+☠️ <b>Creator :</b> <a href='t.me/{OWNER_USERNAME}'>{OWNER_NAME}</a>
 
-☠️ <b>Support Group :</b> <a href=f't.me/{SUPPORT_GRP}'>{SUPPORT_NAME}</a>
+☠️ <b>{SUPPORT_NAME} :</b> <a href='t.me/{SUPPORT_GRP}'>{SUPPORT_NAME}</a>
 
-☠️ <b>Updates Channel :</b> <a href=f't.me/{UPDATES_CH}'>{UPDATES_NAME}</a>
+☠️ <b>{UPDATES_NAME} :</b> <a href='t.me/{UPDATES_CH}'>{UPDATES_NAME}</a>
 
 ☠️ <b>Source Code :</b> <a href='https://github.com/fahrial2310/IMGEditor-TeleBot-IDN'>Source Code</a>
 """
