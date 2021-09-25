@@ -1,5 +1,5 @@
-class script(object):
 from config import Config
+class script(object):
 
     START_MSG = """ <b>Halo {}
 
