@@ -6,7 +6,7 @@ import numpy as np
 import requests
 from PIL import Image, ImageDraw, ImageOps
 
-from config import get_str_key
+from config import Config
 
 RemoveBG_API = get_str_key("REM_BG_API_KEY", required=False)
 
