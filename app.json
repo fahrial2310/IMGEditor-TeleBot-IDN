@@ -16,7 +16,7 @@
         },
         "BOT_USERNAME": {
             "description": "bot usernamemu",
-            "value": "AlvinFSubRobot",
+            "value": "AlvinIMGEditorbot",
             "required": true
         },
         "BOT_NAME": {
