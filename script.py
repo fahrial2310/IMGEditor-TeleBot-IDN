@@ -4,6 +4,7 @@ class script(object):
     START_MSG = """ <b>Halo {}
 
 saya adalah bot editor yang dapat edit gambar yang anda inginkan
+
 klik help untuk bantuan....</b>"""
     HELP_MSG = """ikuti step ini untuk bantuan..
 
