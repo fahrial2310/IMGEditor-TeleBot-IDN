@@ -1,4 +1,4 @@
-from config import config
+from config import Config
 from Modules.edit_1 import (  # pylint:disable=import-error
     bright,
     mix,
