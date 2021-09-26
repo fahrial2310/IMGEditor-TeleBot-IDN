@@ -48,6 +48,11 @@
             "value": "Alvin_junior",
             "required": true
         },
+        "OWNER_NAME": {
+            "description": "NAMA MU",
+            "value": "Muhammad Fahri",
+            "required": true
+        },
         "SUPPORT_GRP": {
             "description": "username group supportmu tanpa @",
             "value": "Alvin_image_editor_group",
@@ -61,13 +66,13 @@
         },
         "SUPPORT_NAME": {
             "description": "nama support grup mu",
-            "value": "",
+            "value": "Image Editor X Alvin Support",
             "required": true     
        
         },
         "UPDATES_NAME": {
             "description": "nama Updates channel mu",
-            "value": "",
+            "value": "Image Editor X Alvin Updates",
             "required": true
         }
     },
