@@ -21,7 +21,7 @@
         },
         "BOT_NAME": {
             "description": "nama bot mu",
-            "value": "Alvin FSub Bot",
+            "value": "Alvin IMGEditor bot",
             "required": true
         },
         "API_HASH": {
